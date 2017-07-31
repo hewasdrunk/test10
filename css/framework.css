@@ -1,0 +1,174 @@
+/* ---------------------框架设置----------------------- */
+
+html{height:100%;width:100%;}
+body{display:flex;flex-direction:column;height:100%;width:100%;}
+header{flex:0 0 auto;}
+.g-content{flex: 1 0 auto;width:100%;}
+footer{flex: 0 0 auto;}
+
+/*---------------------------------------------------------*/
+.container:before{
+    content:"";
+    display: table;
+}
+.container:after{
+    clear:both;
+}
+/* ---------------------具体的头部设置----------------------- */
+
+html{font-size:62.5%;font-family: "Microsoft YaHei" ! important;}
+
+/*-----头部设置-----*/
+
+.top{
+    height:40px;
+    /*!*border-bottom: 0.1rem solid #1277DC;*!不能有下边框*/
+    background:#1277DC;font:12px Tahoma;color:#fff;
+    overflow: hidden;
+}
+.lh40{line-height:40px;}
+.top a{
+    display: inline-block;
+    height:40px;
+    padding-left:12px;
+    padding-right:12px;
+    text-align: center;
+    font:17.8px Tahoma;color:#fff;
+    text-decoration: none;
+    line-height:40px;
+}
+/*!*.top a:last-child{padding:9.5px 36px;}*!不应该用内边距来实现*/
+.top a:last-child{width:104px;}
+
+.top a:last-child:hover{ background:#fff;color:#000;}
+
+
+/*-----导航设置-----*/
+ul,li{margin:0;padding:0;}
+
+.h-nav,.h-nav .navbar-default{
+    text-align:center;
+    background:#F9F9F9;
+    min-height:100px;
+    /*border:1px solid #ff0000;*/
+}
+
+.h-nav .navbar-default{
+    border-style:none;
+    box-shadow:none;
+    margin-bottom: 0;
+    /*!*margin-bottom:0;这个必须设置，才能让header的下方的多余空白去掉*!*/
+}
+
+#h-cell-1 li{
+    height:100px;
+
+}
+#h-cell-1 a{
+    display:inline-block;
+    position:relative;
+    width:104px;
+    height:100px;
+    margin-left:32px;
+    font-size:17.8px;
+    text-decoration: none;color:#000;
+}
+#h-cell-1 a span{
+    width:104px;height:40px;
+    line-height: 40px;
+    border-radius:5px;
+    background:#fff;
+    box-shadow: 1px 1px 1px #cccccc;
+    /*filter: drop-shadow(1px 1px 1px grey);*/
+}
+.navbar-header{position: relative;height:100px;}
+.navbar-header button{position:absolute;margin:0;right:20px;}
+
+
+@media only screen and (max-width: 700px) {
+    #h-cell-1 li{height:auto;}
+    #h-cell-1 a{height:20px;width:100%;margin:0;padding:0;overflow:hidden;}
+    #h-cell-1 a span{height:auto;width:100%;background:#F9F9F9;border:none;}
+}
+.navbar-collapse{padding-right:30px;}
+
+
+#h-cell-1 a span:hover{background:#1277DC;color:#fff;}
+
+
+
+
+
+
+
+/*-----底部版权设置-----*/
+#f-row-1{
+    min-height:206px;
+    color: #999999;
+}
+#f-row-1,.bgf9f{ background:#F9F9F9;}
+.f-cess-1{
+    position:relative;
+    padding-top:5rem;
+    /*text-align:center;*/
+}
+
+.lh34{line-height: 34px;}
+
+#qrcode{
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+    vertical-align: middle;
+    margin-left: 1.5rem;
+    background: url(../img/sprite.png) no-repeat 0px -230px;
+}
+
+.f-cess-1 li{
+    display:inline-block;
+    flex-wrap: wrap;
+    font-size:1.4rem;color: #999999;
+    padding:1rem 0;
+
+}
+.f-title{font-size:1.8rem;font-weight:600;margin-top:1rem;}
+#f-row-1 a{color: #999999;margin:0 1rem; }
+#f-row-1 a:hover{color: #1d7ad9;text-decoration: none;}
+.tel{
+    display:inline-block;
+    text-align:left;
+    font-size:1.4rem;
+    line-height: 2.3;
+    vertical-align: middle;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .f-cess-1{
+        position:relative;
+        padding-top:1rem;
+    }
+}
+
+
+
+
+
+/*--------------------*/
+#copyright,.bg127{background:#1277DC;}
+#copyright,.cofff{color:#fff;}
+#copyright{
+    min-height:34px;
+    border-top: 0.1rem solid #1277DC;
+    text-align: center;
+    background:#1277DC;font:12px Tahoma;color:#fff;
+}
+
+
+
+
+
+
+
+
+

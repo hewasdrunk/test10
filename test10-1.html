@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/test10-1.css">
+</head>
+<body>
+<header>
+    <div class="top">
+        <nav class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="">
+                        <span class="lh40">客服热线:010-594-78634</span>
+                        <span class="r">
+                            <a href="#">登陆</a>
+                            <a href="#" class="">注册</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="h-nav">
+        <nav class="container navbar navbar-default" role="navigation">
+            <div class="row">
+                <div class="navbar-header  df-jcsbc">
+
+                    <button type="button" class=" navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul id="h-cell-1" class="nav navbar-nav lsno navbar-right">
+                        <li class=""><a href="#"><span class="dib pat">首页</span></a></li>
+                        <li class=""><a href="#"><span class="dib pat">在线定制</span></a></li>
+                        <li class=""><a href="#"><span class="dib pat">标准箱</span></a></li>
+                        <li class=""><a href="#"><span class="dib pat">质量保障</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="g-content">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-md-push-4 col-sm-push-4">
+                    <ul id="pbar" class="lsno rel">
+                        <li id="bar" class="col-xs-3 tc"><span>1</span><br/>1.<span class="bar-title">定制纸箱</span><div class="line"></div></li>
+                        <li id="bar" class="col-xs-3 tc"><span>2</span><br/>2.<span class="bar-title">选择数量</span><div class="line"></div></li>
+                        <li id="bar" class="col-xs-3 tc"><span>3</span><br/>3.<span class="bar-title">上传附件</span><div class="line"></div></li>
+                        <li id="bar" class="col-xs-3 tc"><span>4</span><br/>4.<span class="bar-title">确认下单</span><div class="line"></div></li>
+                        <div class="line1"></div>
+                        <div class="cl"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form0">
+                    <p class="form1"> 请您按照以下步骤来定制您的纸箱</p>
+                </div>
+            </div>
+            <div class="row">
+                <form name="setbox" method="post" action="">
+                    <div class="genre">
+                        <div class="genre-heading" id="choosebox">选择箱型</div>
+                        <div class="genre-body minh86 ">
+                                <label class="lh86">
+                                    <input type="radio" name="box" value="box1" checked="checked" class="hidden-input"/>
+                                    <span><span></span></span>对口箱
+                                </label>
+                                <label class="lh86">
+                                    <input type="radio" name="box" value="box2" class="hidden-input"/>
+                                    <span><span></span></span>飞机盒
+                                </label>
+                                <label class="lh86">
+                                    <input type="radio" name="box" value="box3" class="hidden-input"/>
+                                    <span><span></span></span>天地盖
+                                </label>
+                            <div class="showdetail">
+                                <span>查看详情 &nbsp;</span>
+                                <button type="button" data-toggle="modal" data-target="#thedetail-1"><span></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genre">
+                        <div class="genre-heading" id="choosesize">确定尺寸</div>
+                        <div class="genre-body minh142 padtd30">
+                            <label class="">
+                                <input type="radio" name="type" value="outside" checked="checked" class="hidden-input"/>
+                                <span><span></span></span>外径
+                            </label>
+                            <br class="visible-sm-block"/><br class="visible-sm-block"/>
+                            <label class="">
+                                长 <input type="text" name="long1" class="w70"/> mm
+                            </label>
+                            <label class="">
+                                宽 <input type="text" name="width1" class="w70"/> mm
+                            </label>
+                            <label class="">
+                                高 <input type="text" name="high1" class="w70"/> mm
+                            </label>
+                            <br/><br class="hidden-xs"/>
+                            <label>
+                                <input type="radio" name="type" value="inside" class="hidden-input"/>
+                                <span><span></span></span>内径
+                            </label>
+                            <br class="visible-sm-block"/><br class="visible-sm-block"/>
+                            <label class="">
+                                长 <input type="text" name="long2" class="w70"/> mm
+                            </label>
+                            <label class="">
+                                宽 <input type="text" name="width2" class="w70"/> mm
+                            </label>
+                            <label class="">
+                                高 <input type="text" name="high2" class="w70"/> mm
+                            </label>
+                            <div class="showdetail">
+                                查看详情 &nbsp;
+                                <button type="button" data-toggle="modal" data-target="#thedetail-1"><span></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="genre">
+                        <div class="genre-heading" id="choosemat">选择材质</div>
+                        <div class="genre-body minh142">
+                            <label class="lh142">
+                                <input type="radio" name="material" value="material1" checked="checked" class="hidden-input"/>
+                                <span><span></span></span>三层A瓦优质
+                            </label>
+                            <label class="lh142">
+                                <input type="radio" name="material" value="material2" class="hidden-input"/>
+                                <span><span></span></span>三层A瓦优质
+                            </label>
+                            <label class="lh142">
+                                <input type="radio" name="material" value="material3" class="hidden-input"/>
+                                <span><span></span></span>三层A瓦优质
+                            </label>
+                            <br class="visible-sm-block visible-md-block"/><br class="visible-sm-block visible-md-block"/>
+                            <label class="lh142">
+                                <input type="radio" name="material" value="material4" class="hidden-input"/>
+                                <span><span></span></span>三层A瓦优质
+                            </label>
+                            <label class="lh142">
+                                <input type="radio" name="material" value="material5" class="hidden-input"/>
+                                <span><span></span></span>三层A瓦优质
+                            </label>
+                            <div class="showdetail">
+                                查看详情 &nbsp;
+                                <button type="button" data-toggle="modal" data-target="#thedetail-1"><span></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nextstep">
+                        <a href="#" class="pat">下一步</a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid bgf9f">
+        <div class="container">
+            <div id="f-row-1" class="row">
+                <div class="col-md-4  text-xs-center">
+                    <div class="f-cess-1">
+                        <p class="f-title">51包装网-纸箱包装首选服务平台</p>
+                    </div>
+                </div>
+                <div class="col-md-4  text-xs-center">
+                    <div class="f-cess-1">
+                        <ul class="lsno">
+                            <li>
+                                <a href="">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="">配送流程</a>
+                            </li>
+                            <li>
+                                <a href="">联系我们</a>
+                            </li><br>
+                            <li>
+                                <a href="">下单指南</a>
+                            </li>
+                            <li>
+                                <a href="">媒体介绍</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right text-xs-center">
+                    <div class="f-cess-1">
+                        <p class="tel">
+                            TEL：400-0000-000<br/>
+                            企业QQ：123456789<br/>
+                            微信号：XXXXXXXXX
+                        </p>
+                        <span id="qrcode"></span>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="copyright">
+            <div class="lh34">
+                <span><span class="dib">北京五一包装科技有限公司</span><span class="dib">Copyright &copy;2015&emsp;</span></span>
+                    <span class="dib">51baozhuang.com015&ensp;</span>
+                    <span class="dib">All Rights Reserved.&ensp;</span>
+                    <span class="dib">京ICP备99999999-1</span>
+            </div>
+        </div>
+</footer>
+<script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
