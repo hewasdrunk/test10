@@ -119,7 +119,7 @@
 @media screen and (max-width: 1000px) {
     .lh86{
         line-height:2rem;}
-
+    .genre-body{padding-left:1px;}
 }
 /*选框样式*/
 .hidden-input {
