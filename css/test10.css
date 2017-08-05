@@ -119,6 +119,7 @@
 @media screen and (max-width: 1000px) {
     .lh86{
         line-height:2rem;}
+
 }
 /*选框样式*/
 .hidden-input {
@@ -211,9 +212,28 @@ input[type="text"] {
         display:block;
     }
     .pd{padding:0;}
+    .nextstep{height:100px !important;}
 }
 
+.nextstep {
+    position:relative;
+    border: solid 1px #f3f3f3;
+    text-align: center;
 
+    height:287px;
+    margin-bottom: 8%;
+}
+.nextstep > a {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: white;
+    background: #e15053;
+    line-height:48px;
+    width:170px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
 
 
